@@ -3,7 +3,7 @@ with open('27-49a.txt') as f:
 
   min_s = 0
   nechet = 0
-  k = [[float('inf'),float('inf')],[float('inf'),float('inf')]]
+  k = [[float('inf'), float('inf')], [float('inf'), float('inf')]]
   
   for i in range(n):
     x, y = sorted(map(int, f.readline().split()))
